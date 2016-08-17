@@ -1,0 +1,17 @@
+property_type:
+ - name:string
+ - version:string
+ - type:string
+ - json_schema:string
+ - utype:string
+ - ucd:string
+ - unit:string
+ - description:string
+property_group:
+ - fc_id:string
+ - name:string
+ - nar:int
+ - time_start:datetime
+ - lat_hg:double
+ - long_hg:double
+ - long_carr:double

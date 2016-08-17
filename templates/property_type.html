@@ -1,0 +1,45 @@
+
+            {% extends "layout.html" %}
+            {% block body %}
+            <fieldset>
+            <form action=property_type_data method="post">
+                <div class="form-group">
+                    <label for="name">name*</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="name">
+                </div>
+                <div class="form-group">
+                    <label for="version">version*</label>
+                    <input type="text" class="form-control" id="version" name="version" placeholder="version">
+                </div>
+                <div class="form-group">
+                    <label for="type">type*</label>
+                    <input type="text" class="form-control" id="type" name="type" placeholder="type">
+                </div>
+                <div class="form-group">
+                    <label for="json_schema">json_schema*</label>
+                    <input type="text" class="form-control" id="json_schema" name="json_schema" placeholder="json_schema">
+                </div>
+                <div class="form-group">
+                    <label for="utype">utype*</label>
+                    <input type="text" class="form-control" id="utype" name="utype" placeholder="utype">
+                </div>
+                <div class="form-group">
+                    <label for="ucd">ucd*</label>
+                    <input type="text" class="form-control" id="ucd" name="ucd" placeholder="ucd">
+                </div>
+                <div class="form-group">
+                    <label for="unit">unit*</label>
+                    <input type="text" class="form-control" id="unit" name="unit" placeholder="unit">
+                </div>
+                <div class="form-group">
+                    <label for="description">description*</label>
+                    <input type="text" class="form-control" id="description" name="description" placeholder="description">
+                </div>
+
+            <button type="submit" class="btn btn-success">Abschicken</button>
+            <button type="reset" class="btn btn-danger">Reset</button>
+            <small>Wichtig: Alle Felder mit * sind Pflichtfelder</small>
+            </form>
+            </fieldset>
+            {% endblock %}
+            
